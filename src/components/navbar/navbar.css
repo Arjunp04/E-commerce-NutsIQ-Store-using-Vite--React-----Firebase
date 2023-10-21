@@ -1,0 +1,20 @@
+/************ animation effect for navbar ***************/
+
+@keyframes moveRighttoLeft {
+  0% {
+    transform: translateX(-60%);
+  }
+  50% {
+    transform: translateX(60%);
+  }
+
+  100% {
+    transform: translateX(-60%);
+  }
+}
+
+
+.animate-leftToRight {
+  animation: moveRighttoLeft 15s linear infinite alternate /* Adjust the duration as needed */
+}
+
